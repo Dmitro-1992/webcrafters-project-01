@@ -33,6 +33,10 @@
   }
 }
 
+.hero-text-link {
+  margin-bottom: 24px;
+}
+
 @media screen and (min-width: 768px) {
   .hero-text-link {
     display: flex;
@@ -102,7 +106,8 @@
   line-height: 1.6;
   color: var(--color-white);
   text-decoration: none;
-  margin-bottom: 24px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-link:hover,
